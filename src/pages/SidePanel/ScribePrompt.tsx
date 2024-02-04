@@ -81,8 +81,6 @@ const SidePanel = () => {
     formatValue ? `input the final result in a  ${formatValue}, ` : ''
   }${exampleValue ? `here is an example:  ${exampleValue}` : ''}`;
 
-  console.log(promptValue);
-
   return (
     <div className="App">
       {options}

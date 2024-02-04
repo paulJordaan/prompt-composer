@@ -85,15 +85,17 @@ const GPTTab = () => {
     formatValue ? `input the final result in a  ${formatValue}, ` : ''
   }${exampleValue ? `here is an example:  ${exampleValue}` : ''}`;
 
-  console.log(promptValue);
-
   return (
     <div className="App">
       <Typography.Title style={{ marginTop: 0 }} level={4}>
         Craft a Prompt
       </Typography.Title>
       <Typography.Paragraph>
-        Inpired by this <a href="https://mitenmit.github.io/gpt/">site</a>.
+        Inpired by this{' '}
+        <a target="_blank" href="https://mitenmit.github.io/gpt/">
+          site
+        </a>
+        .
       </Typography.Paragraph>
       <Form
         form={form}

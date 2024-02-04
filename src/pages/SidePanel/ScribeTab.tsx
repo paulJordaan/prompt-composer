@@ -50,8 +50,6 @@ const ScribeTab = () => {
     instructionsValue ? `${instructionsValue}. ` : ''
   }`;
 
-  console.log(promptValue);
-
   return (
     <div className="App">
       <Typography.Title style={{ marginTop: 0 }} level={4}>
@@ -59,7 +57,10 @@ const ScribeTab = () => {
       </Typography.Title>
       <Typography.Paragraph>
         Based on the method described in this{' '}
-        <a href="https://blog.synapticlabs.ai/unleash-your-chatgpts-potential-with-the-scribe-method">
+        <a
+          target="_blank"
+          href="https://blog.synapticlabs.ai/unleash-your-chatgpts-potential-with-the-scribe-method"
+        >
           article
         </a>
         .
