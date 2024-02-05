@@ -91,7 +91,7 @@ const GPTTab = () => {
         Craft a Prompt
       </Typography.Title>
       <Typography.Paragraph>
-        Inpired by this{' '}
+        Credits to this{' '}
         <a target="_blank" href="https://mitenmit.github.io/gpt/">
           site
         </a>
